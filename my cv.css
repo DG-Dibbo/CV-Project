@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,white,white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px;
+    background-image: linear-gradient(to right,#1d3b55,	#55b384	);
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+   
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: #1999e1;
+
+}
+.contact-me{
+    float: right;
+    padding: 20px;
+    
+}
+.contact-me a{
+    text-decoration: none;
+    color: #336fff;
+    font-weight: bold;
+}
+.contact-me a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    margin-bottom: none;
+    width: 100%;
+}
+/*----------------------------------
+Section Start...Parsonal Information
+----------------------------------*/
+#Parsonal-Information{
+
+}
+.content{
+
+}
+.left-div{
+    
+    width: 30%;
+    float: left;
+}
+.right-div{
+    
+    width: 70%;
+    float: left;
+}
+.clean-div{
+    clear: both;
+}
+.comon-hr{
+    border: solid black 1px;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.course-cse{
+    color:  #1999e1;
+}
+/*--------------------
+education section start
+----------------------*/
+#education-section-left{
+    float: left;
+    width: 45%;
+
+}
+#education-section-right{
+    float: right;
+    width: 45%;
+}
+.finishing-container{
+    background-image: linear-gradient(to right,#5EBEE6, #854DE8, #854DE8);
+    text-align: center;
+    padding: 10px;
+}
+.finishing-container a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    
+}
+.finishing-container p{
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.finishing-container a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+span{
+    background-image: linear-gradient(to right,#5EBEE6,#5EBEE6, #854DE8, #854DE8);
+}
